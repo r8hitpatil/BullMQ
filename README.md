@@ -1,5 +1,5 @@
 ### What is BullMQ
-BullMQ is message queue for to handle the requests in FIFO ( First On First Out)
+BullMQ is message queue for to handle the requests in FIFO ( First In First Out )
 
 ### Why we need BullMQ
 On the platform multiple events occur so to queue it without creating cluster.
@@ -29,3 +29,7 @@ worker.js dequeues it from redis ('email-queue') and executes the job , redis re
 ### Why we need the worker ?
 To dequeue and execute from our redis queue and provide without blocking main api and do the heavy lifting.
 Added -> waiting -> active -> executed is the event of each job in the queue
+
+### Example for critical places to add use the BullMQ
+
+![alt text](<WhatsApp Image 2026-11-05 at 00.38.17.jpeg>)
