@@ -32,4 +32,4 @@ Added -> waiting -> active -> executed is the event of each job in the queue
 
 ### Example for critical places to add use the BullMQ
 
-![alt text](<WhatsApp Image 2026-11-05 at 00.38.17.jpeg>)
+<img width="793" height="1338" alt="BullMQ" src="https://github.com/user-attachments/assets/c5c1b2c4-a012-4247-b4da-dc8c3e1a3df7" />
